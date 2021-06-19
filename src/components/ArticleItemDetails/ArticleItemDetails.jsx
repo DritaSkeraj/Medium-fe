@@ -31,6 +31,8 @@ class ArticleItemDetails extends React.Component {
           </span>
         </a>
 
+        {console.log('✔')}
+
         {this.props.subheading && (
           <div className={"subheading"}>
             <p>

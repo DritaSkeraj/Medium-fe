@@ -13,6 +13,8 @@ export default class Home extends Component {
   state = {
     articles: articles,
   };
+  log(){console.log('idk')}
+
   render() {
     return (
       <div>
